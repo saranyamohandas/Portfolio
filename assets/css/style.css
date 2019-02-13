@@ -1,0 +1,100 @@
+body {
+    background-image: url(../images/minimalist.jpg);
+    background-size: cover;
+    font-family:'Lato', sans-serif;
+    font-size : 20px;
+    
+}
+.navhead {
+    color: #ffffff;
+    
+}
+.navbar{
+    background-image: linear-gradient(to right,#FFB167,#FFCA67);
+    font-size: 25px;
+    font-family: 'Satisfy', cursive;
+}
+.main {
+     margin-top: 5%;
+}
+
+#imgMain {
+    margin-top: -20px;
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+}
+#liner {
+   border-top: 2px solid #cccccc;
+   padding-bottom: 10px;
+   
+}
+.para1 {
+/*    font-family: 'Satisfy', cursive;*/
+    font-size: 20px;
+    
+}
+label {
+/*    font-family: arial;*/
+    color: #99979c ;
+}
+#about {
+    color: #4aaaa5;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px;
+    font-family: 'Satisfy', cursive;
+    font-size : 20px;
+    
+}
+#btn1{
+    margin: 5px 0;  
+    background: #4aaaa5;
+}
+.form-control::placeholder {
+    color: #99979c;
+    opacity: 1;
+}
+
+#foot{
+    background-color: #666666;
+    
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    
+    border-top:6px solid #FFB167;
+}
+#foot2{
+    font-family: arial;
+    font-size: 10px;
+    text-align: center;
+    color: #dddddd;
+    position: absolute;
+    left: 46%;
+    top: 40%;
+}
+.caption{
+    color: #4aaaa5;
+    font-weight: bold;
+}
+.jumbotron{
+    background: 
+}
+.img-thumbnail{
+    width:300px;
+    height: 200px;
+    object-fit: cover;
+    
+    
+    
+}
+.img-thumbnail:hover {
+  opacity: 0.3;
+}
+.col {
+    margin-bottom: 30px;
+}
+
+
+
