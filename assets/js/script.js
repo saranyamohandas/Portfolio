@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	var projects = [{title: "REACT Book Search App",
                      href: "https://github.com/ajam2617/BookSearch",
-                     src: "assets/images/booksearch.png"},
+                     src: "assets/images/Booksearch.png"},
                     {title: "REACT Game",
                      href: "https://github.com/saranyamohandas/ClickyGame",
                      src: "assets/images/clickygame.png"},
@@ -52,11 +52,6 @@ $(document).ready(function(){
 
     for(i=0;i<projects.length;i++){
     	console.log("inside for")
-    	//if(newRow){
-    		
-            
-    	//}
-
     	if(colCount < 4){
             addCurrRow(projects[i]);
     		//newRow = false;
@@ -66,14 +61,8 @@ $(document).ready(function(){
 
     	} else if (colCount >= 4){
     		colCount = 0;
-    		//newRow = true;
-            addNewRow(projects[i])
-            //target.append(parentRow);
-    		// var parentRow = $("<div>");
-    	 //    parentRow.addClass("row");
-//    	} else {
- //         target.append(parentRow);
-//        }
+    		addNewRow(projects[i])
+            
         }
 
         
@@ -90,8 +79,7 @@ $(document).ready(function(){
         parentRow.addClass("row");
         colCount ++
         createChildCol(obj);
-       //target.append(parentRow);
-        
+               
     }
     
     function createChildCol(obj){
@@ -113,12 +101,4 @@ $(document).ready(function(){
         target.append(parentRow);
         
     }
-
-
-
-
-
-
-
-
 })
